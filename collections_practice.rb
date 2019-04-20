@@ -29,7 +29,7 @@ end
 end 
 
 def count_elements(array)
-  words = {}
+  words = Hash.new(0)
   downcase.scan { |a| list[a] +=1}
 end
 list

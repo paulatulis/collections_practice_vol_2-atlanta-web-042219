@@ -33,6 +33,7 @@ def count_elements(array)
   h.map{|k, v| k.merge(count: v.length)}
 end   
 end 
+end
 
 def merge_data(keys, data)
   keys.each do |name_hash|

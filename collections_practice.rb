@@ -55,5 +55,13 @@ def find_cool(array)
     new_hash = {}
     schools.each do |name, location|
       location.each do |symbol, location|
-        
+        if new_hash[location] == nil
+          new_hash[location] = [school]
+        else
+          by_location[location] << school
+        end
+      end
+    end
+    by_location
+end
   end 

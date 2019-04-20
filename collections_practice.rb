@@ -30,7 +30,7 @@ end
 
 def count_elements(array)
   words = {}
-  downcase.scan(/\w+/) { |w| list[w]
+  downcase.scan(/\w+/) { |a| list[a]
 words.each do |count|
   word[count] += 1
 end

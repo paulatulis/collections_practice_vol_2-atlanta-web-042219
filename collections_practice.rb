@@ -29,8 +29,8 @@ end
 end 
 
 def count_elements(array)
-  array.group_by(&:itself) 
-  .map{|k, v| k.merge(count: v.length)}
+  h = array.group_by(&:itself) 
+  h.map{|k, v| k.merge(count: v.length)}
 end   
 end 
 end

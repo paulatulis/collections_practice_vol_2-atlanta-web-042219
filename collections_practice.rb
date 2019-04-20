@@ -58,9 +58,9 @@ def find_cool(array)
         if new_hash[location] == nil
           new_hash[location] = [name]
         else
-          by_location[location] << name
+          new_hash[location] << name
         end
       end
     end
-    by_location
+    new_hash
 end

@@ -29,8 +29,7 @@ end
 end 
 
 def count_elements(array)
-  name = " "
-  count = nil
+  array.group_by(&:itself) 
   
   
 end 

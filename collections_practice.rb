@@ -29,7 +29,7 @@ end
 end 
 
 def count_elements(array)
-  words = Hash.new 0
+  words = {}
 words.each do |count|
   word[count] += 1
 end

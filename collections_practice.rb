@@ -50,3 +50,6 @@ def find_cool(array)
    x if x.has_value?("cool")
     end 
   end 
+  
+  def organize_schools
+  end 

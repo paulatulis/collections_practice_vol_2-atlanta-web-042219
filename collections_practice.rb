@@ -51,5 +51,7 @@ def find_cool(array)
     end 
   end 
   
-  def organize_schools(array)
+  def organize_schools(schools)
+    schools.each do |name, location|
+      location.each do |
   end 

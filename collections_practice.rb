@@ -31,7 +31,6 @@ end
 def count_elements(array)
   array.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
 end   
-end 
 
 def merge_data(keys, data)
   keys.each do |name_hash|

@@ -30,9 +30,9 @@ end
 
 def count_elements(array)
   words = {}
-  downcase.scan(/\w+/) { |a| list[a] +=1}
-list
+  downcase.scan { |a| list[a] +=1}
 end
+list
 end   
 
 def merge_data(keys, data)

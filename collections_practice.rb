@@ -30,11 +30,11 @@ end
 
 def count_elements(array)
   words = Hash.new(0)
-  array.collect {|x| counts[x]+=1 }
-    counts.collect do |hash, number|
+  array.collect {|x| words[x]+=1 }
+    words.collect do |hash, number|
       hash[:count] = number
     end
-  counts.keys
+  words.keys
 end  
 
 def merge_data(keys, data)

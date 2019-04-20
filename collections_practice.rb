@@ -29,9 +29,7 @@ end
 end 
 
 def count_elements(array)
-  h = array.group_by(&:itself) 
-  h.map do |k, v| 
-    k.merge(count: v.length)
+  array.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
 end   
 end 
 

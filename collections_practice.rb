@@ -29,7 +29,7 @@ end
 end 
 
 def count_elements(array)
-  array.each_with_object(Hash.new(0)) { |counts,words| words[count] += 1 }
+  array.each_with_object(Hash.new(0)) { |counts, words| words[counts] += 1 }
 end   
 
 def merge_data(keys, data)

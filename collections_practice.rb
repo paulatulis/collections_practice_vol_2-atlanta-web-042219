@@ -64,4 +64,3 @@ def find_cool(array)
     end
     by_location
 end
-  end 

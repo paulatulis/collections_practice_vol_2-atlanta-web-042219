@@ -30,10 +30,10 @@ end
 
 def count_elements(array)
   h = array.group_by(&:itself) 
-  h.map{|k, v| k.merge(count: v.length)}
+  h.map do |k, v| 
+    k.merge(count: v.length)
 end   
 end 
-end
 
 def merge_data(keys, data)
   keys.each do |name_hash|

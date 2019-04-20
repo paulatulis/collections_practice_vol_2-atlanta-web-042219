@@ -28,7 +28,11 @@ def remove_non_strings(tools)
 end 
 end 
 
-def count_elements
+def count_elements(array)
+  name = " "
+  count = nil
+  
+  
 end 
 
 def merge_data(keys, data)

@@ -32,7 +32,6 @@ def count_elements(array)
   words = {}
   downcase.scan { |a| list[a] +=1}
 end
-end
 list
 end   
 
